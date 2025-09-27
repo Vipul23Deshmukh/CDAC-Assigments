@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch by id</title>
+
+    <style>
+        input,
+        button {
+            margin: 10px 0;
+            padding: 8px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #999;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>gett the post by id</h1>
+    <input type="number" id="postid" placeholders="enter post ID" />
+    <button onclick="getpostById()">fetch post</button>
+    <table id="posttable">
+        <thead>
+
+            <tr>
+
+                <th>ID</th>
+                <th>title</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+
+    </table>
+
+    <script>
+
+
+        function getpostById() {
+
+            const id = document.getElementById('postid').value
+            if (!id) {
+                alert("enter the correct id");
+                return;
+            }
+
+
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', `https://jsonplaceholder.typicode.com/posts/${id}`, true);
+            xhr.onload = function () {
+                const tbody = document.querySelector('#posttable tbody');
+                tbody.innerHTML = '';
+
+                if (xhr.status === 200) {
+                    const post = JSON.parse(xhr.responseText);
+                    if (post && post.id) {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `<td>${post.id}</td><td>${post.title}</td>`;
+                        tbody.appendChild(row);
+                    } else {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `<td colspan="2">Post not found</td>`;
+                        tbody.appendChild(row);
+                    }
+
+                }
+            };
+
+            xhr.onerror = function () {
+                alert('Network error');
+            };
+
+            xhr.send();
+        }
+    </script>
+</body>
+
+</html>

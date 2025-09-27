@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        #s1,#s2{
+            width:100px;
+            padding:5px;
+            text-align: center;
+            background-color: rgb(189, 6, 221);
+            color:rgb(18, 18, 17);
+            border:2px solid black;
+
+        }
+        #s2{
+            display:none;
+            padding: 50px;
+        }
+
+         #s3,#s4{
+
+            width:100px;
+            padding:5px;
+            text-align: center;
+            background-color: rgb(221, 6, 81);
+            color:rgb(227, 227, 6);
+            border:2px solid black;
+
+        }
+        #s4{
+           
+           display:block;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <P id="s1">Click me to slide down</P>
+    <P id="s2">Hi how are you?</P>
+
+     <P id="s3">Click me to slide up</P>
+    <P id="s4">Hi how are you?</P>
+
+    <script>
+        $(document).ready(function(){
+            $("#s1").click(function(){
+                $("#s2").slideDown("slow",2000);
+               
+            });
+        });
+
+         $(document).ready(function(){
+            $("#s3").click(function(){
+                $("#s4").slideUp("slow");
+            });
+        });
+
+
+
+    </script>
+</body>
+</html>

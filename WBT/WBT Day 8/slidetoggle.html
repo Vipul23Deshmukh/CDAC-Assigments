@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<style>
+    p,div{
+        padding:5px;
+        height:50px;
+        width:300px;
+        background-color: burlywood;
+        color: blueviolet;
+        border: solid grey;
+    }
+     div{
+        padding:50px;
+        display:none;
+    }
+
+      
+</style>
+</head>
+<body>
+    <center>
+    <p>click me to slide down and up</p>
+    <div>Hello...Welcome!!!!</div>
+    </center>
+
+    <script>
+        $(document).ready(function(){
+            $("p").click(function(){
+                $("div").slideToggle(2000);
+            });
+        });
+    </script>
+</body>
+</html>

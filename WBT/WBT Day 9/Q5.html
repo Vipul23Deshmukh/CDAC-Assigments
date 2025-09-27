@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>try and catch</title>
+
+</head>
+<body>
+    <button onclick="errorhandle()">Run</button>
+    <p id="message"> hie</p>
+    <script>
+
+        function errorhandle(){
+
+
+            const output=document.getElementById('message');
+
+            try{
+                
+                let result=operation();
+                output.textContent="operation succecess" + result;
+
+            }
+
+
+            catch(error){
+                output.textContent="an unexpected error has has occured"+ error.message;
+
+            }
+
+            finally{
+                console.log("the finally block is executed ..");    
+            }
+        }
+    </script>
+</body>
+</html>

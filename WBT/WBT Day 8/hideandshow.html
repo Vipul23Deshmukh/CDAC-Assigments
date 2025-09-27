@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide and Show</title>
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+            <style>
+                p{
+                    text-align: center;
+                    border:2px solid black;
+                    border-radius: 10px;
+                    color:black;
+                    background-color: rgb(231, 52, 88);
+                    margin:15px;
+                    padding: 20px;
+                    height:50px;
+                    width:500px;
+                }
+                #h,#s,#t{
+                    background-color:aquamarine;
+                    border-radius: 10px;
+                    width:200px;
+                    height:50px;
+                    
+                }
+            </style>
+</head>
+<body>
+ <center>
+    <p >This is crucial information</p>
+
+   
+    <button id="h">Hide</button>
+    <button id="s">Show</button>
+    <button id="t">Toggle hide and show</button>
+    </center>
+    
+    <script>
+        $(document).ready(function(){
+            $("#h").click(function(){
+                $("p").hide(2000);
+            });
+        });
+        $(document).ready(function(){
+            $("#s").click(function(){
+                $("p").show(2000);
+            });
+        });
+         $(document).ready(function(){
+            $("#t").click(function(){
+                $("p").toggle(3000);
+            });
+        });
+
+    </script>
+</body>
+</html>

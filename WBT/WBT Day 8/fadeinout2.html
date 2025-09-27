@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade in and out example</title>
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+<body>
+     <button > click for Fade in</button>
+
+    <div id="d1" style="background-color:red; height:100px; width:100px;margin:20px;display:none;"></div><br>
+    <div id="d2" style="background-color:rgb(4, 178, 30); height:100px; width:100px;margin:20px;display:none;"></div><br>
+    <div id="d3" style="background-color:rgb(0, 195, 255); height:100px; width:100px;margin:20px;display:none;"></div><br>
+   
+  <script>
+    $(document).ready(function(){
+        $("button").click(function(){
+        $("#d1").fadeIn(1000);
+        $("#d2").fadeIn(2000);
+        $("#d3").fadeIn(3000);
+        })
+       
+    });
+  </script>
+</body>
+</html>

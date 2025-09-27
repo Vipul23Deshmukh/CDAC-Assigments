@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validation</title>
+  <style>
+    .error {
+      color: red;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Signup Form</h2>
+  <form id="myForm" onsubmit="return validateForm()">
+    <label>Username:</label><br>
+    <input type="text" id="username" name="username" required minlength="3" maxlength="10" />
+    <div id="usernameError" class="error"></div><br>
+
+    <label>Password:</label><br>
+    <input type="password" id="password" name="password" required minlength="5" maxlength="12" />
+<div id="passwordError" class="error"></div><br>
+
+<button type="submit">Submit</button>
+  </form>
+
+  <script>
+    function validateForm() {
+      let valid = true;
+
+s
+     document.getElementById('usernameError').textContent = '';
+      document.getElementById('passwordError').textContent = '';
+
+      const username = document.getElementById('username');
+     const password = document.getElementById('password');
+
+      if (!username.checkValidity())
+       {
+        if (username.validity.valueMissing) 
+        {
+
+          document.getElementById('usernameError').textContent = 'Username is required.';
+        } 
+        
+        else if (username.validity.tooShort)
+         {
+          
+            document.getElementById('usernameError').textContent = 'Minimum 3 characters.';
+        } 
+        
+        
+        
+        
+        else if (username.validity.tooLong) {
+          document.getElementById('usernameError').textContent = 'Maximum 10 characters.';
+        }
+        valid = false;
+      }
+
+      if (!password.checkValidity()) 
+      {
+        if (password.validity.valueMissing) 
+        {
+          document.getElementById('passwordError').textContent = 'Password is required.';
+        } 
+        else if (password.validity.tooShort)
+         {
+          document.getElementById('passwordError').textContent = 'Minimum 5 characters.';
+        } 
+        else if (password.validity.tooLong) 
+        
+        {
+          document.getElementById('passwordError').textContent = 'Maximum 12 characters.';
+        }
+        valid = false;
+      }
+
+      return valid;
+    }
+  </script>
+
+</body>
+</html>

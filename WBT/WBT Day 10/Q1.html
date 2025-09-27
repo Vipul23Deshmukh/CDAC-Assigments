@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery ajax demo</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>using .load()</h2>
+    <button id="loadbtn">Load html content</button>
+    <div id="loadResult" style="border:1px solid #ccc; padding:10px; margin-top: 10px;"></div>
+    
+    <h2>Using $.get()</h2>
+  <button id="getBtn">Get JSON Data</button>
+  <div id="getResult" style="border:1px solid #ccc; padding:10px; margin-top:10px;"></div>
+  
+  <script>
+    $("#loadbtn").click(function(){
+        $("#loadResult").load("content.html");
+    });
+
+    $("#getBtn").click(function(){
+        $.get("data.json",function(data){
+
+        let output = `<strong>Name:</strong> ${data.name}<br><strong>Age:</strong> ${data.age}<br><strong>class:</strong>${data.class}`;
+        $("#getResult").html(output);
+        });
+    });
+  </script>
+
+
+
+
+</body>
+</html>

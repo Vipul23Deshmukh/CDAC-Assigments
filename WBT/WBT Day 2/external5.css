@@ -1,0 +1,46 @@
+div{
+    background-color: beige ;
+    height: 200;
+    width: 200;
+    align-content: center;
+
+}
+h1{
+    border-style:inset;
+    border-radius: 3px;
+    border-color: black;
+    background-color: rgb(240, 221, 207);
+    
+
+}
+#p0{
+    background-color: rgb(136, 231, 215);
+    align-items: right;
+    color: rgb(117, 6, 168);
+}
+
+#p1{
+    color: white;
+    background-color: crimson;
+    border-style:double;
+    border-color: blue;
+    border-width: 3px;
+    
+}
+#p2{
+    background-color: aqua;
+    border-style: double;
+     
+    border-color: crimson;
+   
+}
+#p3{
+     color: white;
+    background-color: crimson;
+    border-style:double;
+    border-color: blue;
+    border-width: 3px;
+}
+.c1{
+    background-color: rgb(255, 251, 0);
+}

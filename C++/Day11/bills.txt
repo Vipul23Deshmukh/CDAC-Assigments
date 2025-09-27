@@ -1,0 +1,7 @@
+Bill ID: 1, Customer: m
+--------------------------------------------------
+Item: Laptop, Quantity: 5, Unit Price: $800, Subtotal: $4000
+Item: Keyboard, Quantity: 6, Unit Price: $25, Subtotal: $150
+--------------------------------------------------
+Total Amount: $4150
+

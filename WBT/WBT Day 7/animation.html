@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="d1" style="height:200px; width: 200px; background-color: aqua; "></div>
+    <div id="d2" style="height:50px; width:50px; background-color: chocolate; position:absolute; top:0; right: 0;"></div>
+
+    <script>
+        let i=setInterval(fun1,2000);
+        function fun1()
+        {
+            const d= document.getElementById("d1");
+            d.innerHTML="HI"
+            d.style.backgroundColor="red";
+            d.style.height="150px";
+            d.style.width="150px";
+        }
+        let j=setInterval(fun2,3000);
+        function fun2()
+        {
+            let pos=300;
+            const d2= document.getElementById("d2").style.top=pos+'px';
+            //d2.innerHTML="Hello";
+            //d2.style.backgroundColor="green";
+            //d2.style.height="300px";
+            //d2.style.width="500px";
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <input type="text" id="display" readonly /><br>
+    <button onclick="append('7')">7</button>
+    <button onclick="append('8')">8</button>
+    <button onclick="append('9')">9</button>
+    <button onclick="append('/')">/</button>
+
+
+    <button onclick="append('4')">4</button>
+    <button onclick="append('5')">5</button>
+    <button onclick="append('6')">6</button>
+    <button onclick="append('*')">*</button>
+
+
+
+     <button onclick="append('1')">1</button>
+ <button onclick="append('2')">2</button>
+ <button onclick="append('3')">3</button>
+ <button onclick="append('-')">-</button>
+
+
+  <button onclick="append('0')">0</button>
+ <button onclick="append('.')">.</button>
+ <button onclick="calculate()">=</button>
+ <button onclick="append('+')">+</button>
+
+
+
+  <button onclick="clearDisplay()">c</button>
+ <button onclick="toggleHighlight()">highlight</button>
+ <button onclick="showError()">error</button>
+ <button onclick="removeStyles()">Reset</button>
+
+
+
+<script>
+    function append(value) {
+      $('#display').val($('#display').val() + value);
+    }
+
+    function clearDisplay() {
+      $('#display').val('');
+    }
+
+    function calculate() {
+      try {
+        const result = eval($('#display').val());
+        $('#display').val(result);
+      } catch (error) {
+        $('#display').addClass('error').val('Error');
+      } finally {
+        console.log("Calculation attempted.");
+      }
+    }
+
+    function toggleHighlight() {
+      $('#display').toggleClass('highlight');
+    }
+
+    function showError() {
+      $('#display').addClass('error');
+    }
+
+    function removeStyles() {
+      $('#display').removeClass('highlight error');
+    }
+  </script>
+
+</body>
+</html>

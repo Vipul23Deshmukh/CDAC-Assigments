@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scrolling Quote</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        #container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            height: 60px;
+            border: 2px solid #333;
+            background-color: #f0f0f0;
+        }
+
+        #quote {
+            position: absolute;
+            white-space: nowrap;
+            font-family: 'Georgia', serif;
+            font-size: 24px;
+            color: #2c3e50;
+            padding: 10px;
+        }
+
+        #scrollBtn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="quote">“The only limit to our realization of tomorrow is our doubts of today.”</div>
+    </div>
+
+    <button id="scrollBtn">Start Scrolling</button>
+
+    <script>
+        $(document).ready(function(){
+            $("#scrollBtn").click(function(){
+                let containerWidth = $("#container").width();
+                let quoteWidth = $("#quote").width();
+                let distance = containerWidth - quoteWidth;
+
+                let count = 0;
+
+                function scrollRight() {
+                    $("#quote").animate({ left: distance }, 1000)
+                               .animate({ left: 0 }, 1000, function(){
+                        count++;
+                        if (count < 4) {
+                            scrollRight();
+                        } else {
+                            scrollLeft();
+                        }
+                    });
+                }
+
+                function scrollLeft() {
+                    $("#quote").animate({ left: -distance }, 1000)
+                               .animate({ left: 0 }, 1000);
+                }
+
+                // Reset position before starting
+                $("#quote").css("left", "0");
+                scrollRight();
+            });
+        });
+    </script>
+
+</body>
+</html>

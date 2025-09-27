@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>italics underline</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+
+            
+
+        
+        </script>
+</head>
+
+<body>
+
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque provident fugiat itaque, voluptates tempora dolore
+        eius libero cumque officiis modi. Quasi natus mollitia est, numquam officiis nemo unde ducimus molestiae?</p>
+    <p id="p2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magni dignissimos magnam aperiam, deleniti
+        animi officiis, quisquam totam, explicabo in dolorem. Impedit qui provident accusamus, vel molestias eius, earum
+        eum aspernatur, quas non exercitationem officia natus eos quod quibusdam ipsa deserunt enim. Porro ad quis
+        perferendis odio vel cum magni.</p>
+     <p id="p3"></p>
+     <p id="p4"></p>   
+
+        <script>
+
+            $(document).ready(function(){
+
+                let content=$("#p1").html();
+                $("#p3").html(content).css("font-style","italic");
+
+            });
+
+
+            $(document).ready(function(){
+                let content=$("#p2").html();
+                $("#p4").html(content).css("text-decoration","underline");
+            });
+        </script>
+
+        
+</body>
+
+</html>

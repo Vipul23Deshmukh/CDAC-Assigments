@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="firstname" placeholder="first name">
+    <input type="text" id="lastname"  placeholder="last name">
+    <input type="number" id="age" placeholder="age">
+    <button onclick="generateuname()">Generate user name</button>
+    <h2 >Generated Username</h2>
+    <p id="display"></p>
+
+    <script>
+        function generateuname()
+        {
+            const fname=document.getElementById("firstname").value.trim();
+            const lname=document.getElementById("lastname").value.trim();
+            const age=document.getElementById("age").value.trim();
+ 
+            const f=fname.slice(0,2).toLowerCase();
+            const l=lname.slice(-2).toLowerCase();
+            const username = f+l+age;
+            document.getElementById("display").textContent=`username:${username}`;
+        }
+
+    </script>
+
+</body>
+</html>

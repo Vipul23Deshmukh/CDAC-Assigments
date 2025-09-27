@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fadein out</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+ <style>
+
+        #banner {
+            display: none;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffeeba;
+            border: 2px solid #f0ad4e;
+            font-family: 'Arial', sans-serif;
+            font-size: 20px;
+            color: #333;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        #Disappear {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #f0ad4e;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #Disappear:hover {
+            background-color: #ec971f;}
+</style>
+    </head>
+<body>
+    <div id="banner">sale sale sale...........90%off on 10000Rs purchise</div>
+
+    <BUtton id="Disappear">  Disappear</BUtton>
+    <script>
+
+        $(document).ready(function(){
+
+            $("#banner").fadeIn(1000);
+
+            $("#Disappear").click(function(){
+                $("#banner").fadeOut(1000);
+
+            });
+            
+        });
+    </script>
+</body>
+</html>

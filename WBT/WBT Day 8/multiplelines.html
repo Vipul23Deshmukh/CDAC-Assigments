@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiline Text on Click</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        #trigger {
+            cursor: pointer;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        #output {
+            margin-top: 10px;
+            font-family: Arial, sans-serif;
+            white-space: pre-line; /* preserves line breaks */
+        }
+    </style>
+</head>
+<body>
+
+    <p id="trigger">Click here to see the message</p>
+    <p id="output"></p>
+
+    <script>
+        $(document).ready(function(){
+            $("#trigger").click(function(){
+                let multilineText = "Line 1: Welcome to the world of jQuery\nLine 2: You just triggered a multiline message\nLine 3: Is that cool?";
+                $("#output").text(multilineText);
+            });
+        });
+    </script>
+
+</body>
+</html>

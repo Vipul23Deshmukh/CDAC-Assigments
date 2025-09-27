@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery Class Methods</title>
+  <style>
+    .highlight {
+      background-color: yellow;
+      color: black;
+      font-weight: bold;
+    }
+
+    .error {
+      background-color: red;
+      color: white;
+    }
+
+    .active {
+      border: 2px solid rgb(248, 3, 3);
+      padding: 10px;
+    }
+  </style>
+  <!-- Include jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <h2 id="text">Click the buttons to apply styles</h2>
+
+  <button onclick="addHighlight()">Add Highlight</button>
+  <button onclick="removeHighlight()">Remove Highlight</button>
+  <button onclick="toggleActive()">Toggle Active</button>
+
+  <script>
+    function addHighlight() {
+      $('#text').addClass('highlight');
+    }
+
+    function removeHighlight() {
+      $('#text').removeClass('highlight');
+    }
+
+    function toggleActive() {
+      $('#text').toggleClass('active');
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "rest-api-demo",
+  "version": "1.0.0",
+  "main": "Q1.js",
+  "scripts": {
+    "start": "node Q1.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "hbs": "^4.2.0"
+    
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Event</title>
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<body>
+    <h1> the mouse events</h1>
+
+    <p id="p1"> click here to see magic.........!!!</p>
+    <p id="p2">Double click here to see magic.........!!!</p>
+    <p id="p3">this one is for mouse enter....!</p>
+    <p id="p4">this one is for mouse leave Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore id
+        veritatis est magnam quis laborum obcaecati illum tempora dolores iure odit quia, consectetur doloremque
+        dolorum! Cum molestias commodi beatae.</p>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#p1").click(function () {
+                $(this).hide();
+            });
+        })
+
+        $(document).ready(function () {
+            $("#p2").dblclick(function () {
+                $(this).hide();
+            })
+        })
+
+        $(document).ready(function () {
+            $("#p3").mouseenter(function () {
+                $(this).hide();
+            })
+        })
+
+        $(document).ready(function () {
+            $("#p4").mouseleave(function () {
+                alert("get back here on paragraph");
+            })
+        })
+
+    </script>
+
+</body>
+
+</html>

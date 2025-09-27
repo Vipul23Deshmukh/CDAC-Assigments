@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse events</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Mouse Evwnts</h1>
+    <p id="p1"> Mouse down event .it will execute when you press down mouses right,middle or left button</p>
+     <p id="p2">MouseUp event. </p>
+     <p id="p3">Enter name <input type="text"><br>
+                Enter last name<input type="text"><br>
+    </p>
+     <p id="p4"> Hover Event</p>
+
+
+     <script>
+        $(document).ready(function(){
+            $("#p1").mousedown(function(){
+                alert(" Welcome to iet.");
+            });
+        });
+         
+           $(document).ready(function(){
+            $("#p2").mouseup(function(){
+                alert(" all thee best");
+            });
+        });
+
+           $(document).ready(function(){
+            $("input").focus(function(){
+                $(this).css("background-color","yellow");
+            });
+             $("input").blur(function(){
+                $(this).css("background-color","grey");
+            });
+        });
+
+         $(document).ready(function(){
+            $("#p4").hover(function(){
+                $(this).css("background-color","red");
+            });
+        });
+
+     </script>
+</body>
+
+</html>

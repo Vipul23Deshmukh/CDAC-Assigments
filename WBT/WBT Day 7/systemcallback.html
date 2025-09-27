@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #s{
+            background-color: aqua;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="s">System callback function.</h1>
+    <h2 id="h"></h2>
+
+    <script>
+       let intervalid= setInterval(myfun,1000);
+         let c=0;
+         function myfun()
+         {
+           c++;
+            document.getElementById("h").innerHTML="welcome to IET."+c;
+
+            if(c==10)
+         {
+            clearInterval(intervalid);
+            document.getElementById("h").innerHTML="Good bye";
+         }
+         }
+
+
+         setTimeout(fun2,4000)
+
+        function fun2()
+         {
+            document.getElementById("s").innerHTML="<marquee> Welcome to IET </marquee>";
+         }
+        
+    </script>
+</body>
+</html>

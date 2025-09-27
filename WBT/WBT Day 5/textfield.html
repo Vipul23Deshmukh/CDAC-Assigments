@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p1 id="p1"></p1>
+    <input type="text" id="n">
+    <button type="button" onclick="addatend()">Add at the end</button>
+    <button type="button" onclick="addatstart()">Add at the Start</button>
+    <button type="button" onclick="deletefromend()">Delete from end</button>
+    <button type="button" onclick="deletefromstart()">Delete from start</button>
+    <button type="button" onclick="displayeven()">Display even </button>
+     <button type="button" onclick="displayodd()">Display odd </button>
+
+
+     <script>
+        const a=[];
+
+        
+        function addatend(){
+
+            let d=document.getElementById("n").value;
+            a.push(d);
+            console.log(a);
+            show();
+
+        };
+        function addatstart(){
+
+            let d=document.getElementById("n").value;
+            a.unshift(d);
+            console.log(a);
+            show();
+
+        };
+        function deletefromend(){
+
+            let d=document.getElementById("n").value;
+            a.pop(d);
+            console.log(a);
+            show();
+
+        };
+        function deletefromstart(){
+
+            let d=document.getElementById("n").value;
+            a.shift(d);
+            console.log(a);
+            show();
+
+        };
+     
+
+        function show()
+        {
+            document.getElementById("p1").innerHTML=a;
+        }
+     </script>
+</body>
+</html>
