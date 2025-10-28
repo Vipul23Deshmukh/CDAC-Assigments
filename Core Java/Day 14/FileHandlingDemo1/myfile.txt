@@ -1,0 +1,6 @@
+3 monk prob" most likely refers to "MONK's Problems," a set of datasets
+ used in machine learning to compare different learning algorithms, sp
+ ecifically the third version, MONK-3. It could also refer to the anci
+ ent Chinese proverb that inspired the animated short film, Three Monks
+ , which illustrates a phenomenon where too many people working on a task
+ can cause it to become neglected. 
