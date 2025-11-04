@@ -1,0 +1,94 @@
+1.	Retrieve the entire contents of EMP table.
+
+	ANSWER:  SELECT * FROM EMP;
+
+
+2.	Print the name of employees.
+
+	ANSWER:   SELECT ENAME FROM EMP;
+
+
+3.	Retrieve the list of names and jobs of employees.
+
+	ANSWER:  SELECT ENAME,JOB FROM EMP;
+
+
+	  
+4.	List of various department available from dept table.
+	
+	ANSWER: SELECT DNAME FROM DEPT;
+
+
+
+5.	List all information about the Employees of the EMP table.
+
+	ANSWER:  SELECT * FROM EMP;
+
+	
+	
+6.	Show the information of the Department table.
+
+	ANSWER: SELECT * FROM DEPT;
+
+	
+7.	Display the contents of the column Empno, Ename as Employee Name and Sal from the Emp table.
+
+       ANSWER:  SELECT EMPNO,ENAME'EMPLOYEE NAME',SAL FROM EMP;
+
+
+	
+8.	Display the Job, Comm and Ename from the Emp table with Customized column headings.
+
+       ANSWER :  SELECT JOB 'EMPLOYEE JOB',COMM'COMMISSION',ENAME 'EMPLOYEE NAME' FROM EMP;
+
+
+	 
+9.	Display the location as “Location” and names of all the departments as “Department Names”.
+
+         ANSWER :  SELECT LOC 'LOCATION', DNAME 'DEPARTMENT NAME' FROM DEPT;
+
+	
+10.	List the different Managers Codes.
+
+       ANSWER : SELECT MGR 'MANAGER CODE' FROM EMP;
+
+	 
+11.	Write a query, which concatenates the Emp No, Name and Mgr Code. Display output with spaces in the columns.
+
+        ANSWER : SELECT EMPNO,ENAME,MGR, CONCAT(EMPNO, '  ,  ', ENAME, '  ,  ',MGR) 'CONCATED DATA' FROM EMP;
+
+
+	 
+12.	Create a query to display all the data from the EMP table, separate each column by a comma.
+     
+	ANSWER :  SELECT  CONCAT(EmpNo, ',', EName, ',', Job, ',', Mgr, ',', HireDate, ',', Sal, ',', Comm, ',', DeptNo) AS Employee_Row FROM EMP;
+
+
+     
+13.	Modify the above query to add a column that will subtract the Old Salary from the New Salary. 
+
+       ANSWER :SELECT SAL, SAL+COMM NEWSAL, (SAL+COMM)-SAL  INCREAMENT FROM EMP; 
+
+
+14.	Write a query that produces the following for each employee as- 
+      <employee name> earns <salary> monthly, but wants salary <3 times salary>. Label the columns Dream Salaries.
+      
+	  ANSWER : SELECT ENAME,SAL,CONCAT(ENAME,' EARNS ', SAL , ' MONTHLY, BUT WANTS ' , 3*SAL  ) 'DREAMSALARY' FROM EMP;
+
+	  
+15.	Display different types of positions available in the Company.
+    
+	 ANSWER : SELECT DISTINCT JOB FROM EMP;
+
+	 
+16.	Using the sales table, you need to report the following 
+a.	Appropriate column heading should be given for all the columns.
+
+      select repid 'Sales Representative id', custid 'Customer id', custname 'Customer Name' , prodid 'Product Id',prodname 'product name',amount 'Amount' from sales;
+
+
+
+
+
+
+
