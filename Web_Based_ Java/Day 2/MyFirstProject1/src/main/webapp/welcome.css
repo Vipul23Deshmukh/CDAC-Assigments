@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a modern font and background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  color: #333;
+  line-height: 1.6;
+  padding: 40px;
+}
+
+/* Stylish heading */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #0d47a1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+
+  /* Add subtle animation */
+  animation: fadeInDown 1.5s ease-in-out;
+}
+
+/* Paragraph styling */
+p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  text-align: justify;
+  background: #ffffffcc; /* semi-transparent white */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  /* Smooth transition on hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+p:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Animation keyframes */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
