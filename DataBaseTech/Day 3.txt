@@ -1,0 +1,196 @@
+1.	List names of employees whose job is MANAGER.
+	Answer: select ename from emp where job='manager';
+
+2.	List names of employee having salary greater than equal to 3000.
+	Answer: select ename from emp where sal>=3000;
+	
+3.	List all employees having ‘A’ as second letter in their names.
+	Answer: select ename from emp where ename like '_a%';
+	
+4.	List the Employee Number, Name, Hiredate and Job Title of the Employees in the Department 10.
+	Answer: select ename,hiredate,empno,job from emp where deptno=10;
+
+5.	Display the details of those Employees who earn a monthly Salary of more than 2000.
+	Answer:select * from emp where sal>=2000;
+
+6.	Display the names of all Employees from Department 10 and 20 whose name start with “A” and ends with “B”.
+    Answer :select ename from emp where (deptno=10 or deptno=20) and ename like 'a%b';
+
+7.	Display the details of the employees who have joined on 21-DEC-1990.
+     
+	 Answer : select *from emp where hiredate='1990-12-21';
+
+8.	Display the Employee Code, Name, Job & Annual Salary for all Employees belonging to Department Number 10. 
+
+    Answer :  select empno EmployeeCode, ename Name, Job ,sal*12 AnnualSalary from emp where deptno=10;
+	 
+9.	Display the details of the Employees who earn an Annual salary of more than 25000. Sort the records in the descending order of Salary.
+
+     Answer :  select empno EmployeeCode, ename Name, Job ,sal*12 AnnualSalary from emp where (sal*12)>25000 order by annualsalary desc ;
+
+10.	Display the names of Employees whose names contain the character “F”.
+    
+	Answer:select ename from emp  where ename like '%f%';
+	
+11.	Display the Employee Code, Name, Job & Annual Salary for all Employees belonging to Department Number 10. 
+
+     Answer :  select empno EmployeeCode, ename Name, Job ,sal*12 AnnualSalary from emp where deptno=10 ;
+	 
+12.	Display the details of the Employees who earn an Annual salary of more than 25000. Sort the records in the descending order of Salary.
+     
+	 Answer :  Answer :  select empno EmployeeCode, ename Name, Job ,sal*12 AnnualSalary from emp where (sal*12)>25000 order by annualsalary desc ;
+
+13.	Display the names of Employees whose names contain the character “F”.
+	Answer:select ename from emp  where ename like '%f%';
+
+14.	Display the Names and Numbers of all Departments in the descending order of the Department Names.
+	Answer:select dname,deptno from dept order by dname desc;
+	
+15.	Display the Name, Employee Number, Designation and Salary of those Employees who earn a monthly salary of not less than 1000 and not more than 2000.
+	Answer:select ename,empno,job,sal*12 AnnualSal from emp where sal>1000 and sal<2000;
+
+
+16.	Find out the Bonus (Bonus 1.1% of Annual Salary) that every person will receive at the end of the year.
+	Answer: select ename,empno,job,sal*12 AnnualSal,(sal*12*1.1)/100 bonus from emp ;
+
+
+17.	Display the Name, Job and Dept No. of all the Employees who either work in Department 30 or in Department 40.
+	Answer: select ename,job,Deptno from emp where deptno=30 or deptno=40 ;
+
+18.	Display the Employee Number, Name for Clerks and Managers who’s Salary is more than 1500.
+	Answer: select empno,ename,job from emp where job='clerk' or job='manager' and sal>1500 ;
+	
+	
+19.	Display the Name, Annual Salary and Commission as “Commission Earned” of all employees whose monthly salary is greater than their Commission. The output should be in decreasing order of salary. If two or more employees have same salary, then sort them by name within the highest order of salary. 
+	 Answer: select Ename,sal*12 annualSal,comm 'Commission Earned' from emp where sal>comm order by sal desc,ename ;
+
+20.	Display the Name and Job of sales executives or managers whose names end with the letter ‘S’. 
+	Answer: select ename ,job from emp where job='sales executive' or job='manager' and ename like '%s';
+
+21.	Display all the Names of the Employees whose Salary is either more than 1000 but not more than 2200.
+	Answer:select ename from emp where sal>1000 and sal<2200;
+
+22.	Select Name & Salary of employees who are clerks.
+    Answer:select ename,sal from emp where job='clerk';
+	
+23.	List the Department Number and Names of all Employees having Salary less than 2500.  
+    Answer : select ename,job from emp where sal<2500;
+
+
+24.	List the Employee Number and the Name of the President.
+    
+	Answer:  select empno from emp where job='president';
+
+25.	Display Names whose job is either Clerk or Analyst or Salesman.
+     Answer :  select ename from emp where job in( 'Clerk' ,' Analyst' ,'Salesman');
+	
+26.	List the Employees whose names start with ‘B’ or ‘M’
+
+    Answer : select ename from emp where ename like 'm%' or ename like 'b%';
+	
+27.	Give a list of Employees sorted in alphabetic order of Names.
+     Answer : select ename from emp order by ename;
+	 
+28.	Find out details of Employees where Commission is greater than 5% of the Salary.
+     Answer : select empno, ename,job,sal,comm,sal*12 AnnualSal,(sal*12*5)/100  '5% sal' from emp where comm>(sal*12*5)/100 ;
+	 
+	 
+29.	Create query to display the Employee Name and Department Number for empno 7566.
+    Answer :  select ename,deptno from emp where empno=7566;
+
+30.	List the Name and Salary of Employees who earn more than $1500 and are in Department 10 or 30. Label the columns NAME and Monthly Salary, respectively.
+    Answer: select ename NAME,sal 'MONTHLY SALARY' from emp where sal>1500 and deptno=10 or deptno=30;
+	
+31.	Display the Name, Salary and Commission for all Employees who earn Commission. Sort data in descending order of Salary and Commission. 
+    Answer:select ename,sal,comm from emp where comm is not null;
+
+32.	Display the Names of all Employees with the third letter of their Name as an “A”.
+    Answer: select ename from emp where ename like '__a%';
+
+33.	Display the name of all Employees that have two ‘LS’ in the name and are in department 30 or their manager is 7782.
+	Answer:  select ename from emp where ename like '%ll%'and deptno=30 or mgr=7782  ;
+
+34.	Display Name, Job & Sal for all Emp whose job is Clerk or Analyst and their Sal is not equal to 1000, 3000 & 5000.
+	Answer:select ename,job,sal from emp where job='clerk' or job='analyst' and sal<>1000 and sal<>3000 and sal<>5000;
+
+
+35.	Display the Name, Sal & Comm for all Employees whose Comm amount is greater than their Sal increased by 10%.
+	Answer: select empno, ename,job,sal,comm,sal,(sal*10)/100  '10% sal' from emp where comm>(sal*10)/100 ;
+
+
+36.	 Display Employee Number, Name, Gross Salary (Bonus + Salary*12 + Commission) for all those Employees who belong to Department Number 20 or 30 in the ascending order of Employee Numbers.
+	Answer:select ename,empno,job,sal*12 AnnualSal,(sal*12*1.1)/100 bonus,(sal*12*1.1)/100+(sal*12)+ifnull(comm,0) GrossSal from emp where Deptno=20 or deptno=30 order by Deptno asc ;
+
+37.	Display the Employee Number, Name, Salary, and Salary Increase by 15% expressed as a whole number. Label the column New Salary.
+     Answer: select empno,ename, sal,(sal*15)/100 '15%',sal+(sal*15)/100 NewSal from emp ;
+	 
+38.	Write a query that will display the employees name with the first letter capitalized an other letters lowercase and the length of their name, for all employees whose name starts with J, A or M.
+    Answer:select concat(upper(substring(ename,1,1)),lower(substring(ename,2))) Ename  from emp where ename like 'j%' or ename like 'a%' or ename like 'm%'
+
+39.	Create a query that will display the Employees name and commission amount. If the employee does not earn commission, put “No Commission”.
+    Answer: select ename,comm ,ifnull(comm,'no commision')  from emp;
+
+40.	Display Customers Name, Sales Amount approximate Profit Earned (Profit = 8% of Sales Amount) in whole numbers.
+    Answer:  select custname,amount,round((amount*8)/100) profit from sales;
+	
+41.	Using the sales table, you need to report the following 
+a.	Sales for the first quarter of the year of 1999
+b.	Sales for the product SP TENNIS RACKET
+
+42.	Consider the Customer table. The Credit Limit of all the Customers is increased by 25%. Calculate the new Credit Limit and display the Customers. The same along with the Name, Repid and Credit Limit for all the following should be implemented in the query result set:
+a.	The Credit Limit should be expressed as a whole number, prefixed with a $ symbol.
+b.	Total length of the new Credit Limit should be 10.
+c.	Names of the Customers should be displayed in the title case.
+
+    Answer:select concat(upper (substring(name,1,1)),lower(substring(name,2))) CName ,repid, creditlimit,(creditlimit*25)/100 '25%',lpad(round(creditlimit+(creditlimit*25)/100),10,'$' )'new credit' from customer;
+
+43.	Display the name and the department number of all employees. The department number should be displayed in the following manner: 
+a.	If the department number is 10, display ‘Belongs to Dept. 10’
+b.	If 20, display ‘Belongs to the Dept. 20’
+c.	Otherwise display ‘Neither 10 nor 20.’
+
+    Answer: select ename,deptno,( case when deptno=10 then 'belongs to Dept.10' when deptno=20 then 'belongs to Dept.20' else 'neither 10 nor 20' end)  new from emp ;
+
+44.	Display the name, first letter of the name (as Abbreviated Name) and the annual compensation for all employees. The following issues should be taken care of:
+a.	The annual compensation has to be calculated by adding the salary and the commission earned by the employee and multiplying the value by 12.
+b.	The first letter of the employee name should be in upper case. 
+c.	If the employee does not earn any commission, the commission values should be taken as 600. 
+
+    Answer: select ename,(upper(substring(ename,1,1))) AbbName,((sal+ifnull(comm,600))*12) `Annual compensation` from emp;
+ 
+45.	Display the Order ID, the Total Value of the Order and the Commission Plan taking into consideration the following-
+a.	If the Commission Plan is A display it as	Anonymous 
+b.	If the Commission Plan is B display it as     Business
+c.	If the Commission Plan is C display it as 	Casual
+d.	If no Commission Plan has been mentioned then display Commission Not Allowed.
+
+    Answer: select ordid,commplan,case when commplan='A' then 'Anonymous'  when commplan='b' then 'business' when commplan='c' then 'casual' else ifnull(commplan,'commision not alloted') end  comm,total from ord;
+	 
+46.	 List all the employees who are living in ‘BOSTON’.
+      
+    Answer:select cname from customers where city='boston';
+
+
+47.	 List the names of employees who stay in city whose second letter is ‘A’ or ‘H’.
+    Answer: select cname from customers where city like '_a%' or city like '_h%';
+
+48.	List names of employees who are working in ‘SALES’ department.
+
+49.	Print the name of employees in the ascending order of employee name.
+    Answer: select ename from emp order by ename asc;
+	
+	
+50.	Print employee information in the descending order of salary.
+    Answer:select * from emp order by sal desc;
+	
+51.	Display employee information in ascending order of year.
+     Answer:select * from emp order by hiredate asc;
+	 
+52.	Display job, deptno, names of employee whose name starts with ‘B’ or ‘M’.
+    Answer:select job, deptno,ename from emp where ename like 'b%' or   ename like 'm%';
+	 
+	 
+53.	List the employees whose comm is null and salary does not exceed 3000.
+     Answer: select * from emp where comm is null and sal<3000;
+  
+

@@ -1,0 +1,105 @@
+1.	Display the Employee Name, Job, and Start Date of Employees hired from February 1981 to May 1981.
+     
+	ANSWER : SELECT ENAME,JOB,HIREDATE FROM EMP WHERE HIREDATE BETWEEN '1981-2-1' AND '1981-5-30';
+        
+2.	Display the Name and Hiredate of every Employee who was hired in 1982.
+
+    ANSWER:SELECT ENAME,HIREDATE FROM EMP WHERE HIREDATE BETWEEN '1982-1-1' AND '1982-12-31';
+
+	
+3.	Write a query to display the current date. Label the column as Current Date.
+
+    ANSWER: SELECT CURDATE() 'CURRENT DATE';
+	
+4.	Display the Employee’s Name, Hiredate, Salary and Review Date, which is first Monday after six months of service.
+    
+	ANSWER : SELECT ENAME,HIREDATE,SAL, DATE_FORMAT((HIREDATE + INTERVAL 6 MONTH),'%a') FROM EMP  WHERE DATE_FORMAT((HIREDATE + INTERVAL 6 MONTH),'%a')='MON' ;
+	
+	
+5.	Modify the query to display the dates as “Sunday, the Seventh of September, 1981”.
+    
+
+	ANSWER: SELECT CURDATE() ,DATE_FORMAT(CURDATE(), '%W ,THE %D OF %M  %Y');
+	
+6.	Create a query to display the name and salary for all Employees. Format the salary to be 15 characters long by adding ‘$’.
+
+	ANSWER:  SELECT ENAME,SAL,LPAD(SAL,15,'$') FROM EMP;
+	
+7.	Display the Name, Hiredate and day of the week on which the employees started. Order the results by the Day of the week starting with Monday.
+     
+	 ANSWER :  SELECT ENAME,HIREDATE,DAYNAME(HIREDATE) FROM EMP  ORDER BY (DAYOFWEEK(HIREDATE));
+	 
+	 
+8.	Display details of orders received in the year 1986. 
+     
+	 ANSWER :  SELECT * FROM ORDERS WHERE ODATE BETWEEN '1986-1-1' AND '1986-12-31';
+
+9.	Write a query to find out the DAY (for example, SUNDAY) of the current date.
+     
+	 ANSWER : SELECT DAYNAME(CURDATE()) DAY;
+     
+10.	Display the name and the date of joining of the employees who belong to department number 10. The date of joining should be formatted. For eg. if it is ‘10-JUN-97’ it should be displayed as Fifteenth JUNE, 1997. The name of the employee should be in upper case.
+
+
+11.	Consider the Ord table. Find the difference between the Order Date and Ship Date in months as well as days. Label the columns appropriately.
+        
+    
+12.	List employee details who have joined in December.
+    
+	ANSWER : SELECT * FROM EMP WHERE  EXTRACT( MONTH FROM HIREDATE)=12;
+	
+	
+13.	Display day on which KING joined.
+
+    ANSWER: SELECT ENAME, DATE_FORMAT(HIREDATE,'%W') DAYOFJOINING  FROM EMP WHERE ENAME='KING';
+	
+14.	Display month on which MARTIN joined.
+
+	ANSWER SELECT ENAME, DATE_FORMAT(HIREDATE,'%M') MONTHOFJOINING  FROM EMP WHERE ENAME='MARTIN';
+	 
+15.	Find number of days elapsed between today’s date and hiredate of ‘ADAMS’.
+
+    ANSWER SELECT ENAME,HIREDATE, DATEDIFF(CURDATE(),HIREDATE) R1  FROM EMP WHERE ENAME='ADAMS';
+	 
+16.	Print the date, 15 days alter today’s date.
+
+	ANSWER SELECT CURDATE()+INTERVAL 15 DAY;
+		
+17.	List all employee hired in the month of December.
+		
+	ANSWER: SELECT * FROM EMP WHERE  EXTRACT( MONTH FROM HIREDATE)=12;
+
+18.	List all employee hired after 1980.
+	ANSWER: SELECT * FROM EMP WHERE  EXTRACT( Year FROM HIREDATE)>1980;
+
+19.	Display names and jobs of employee in the format SMITH-CLERK.
+
+	ANSWER:SELECT ENAME,JOB, CONCAT(ENAME,'-',JOB) FROM EMP ;
+
+20.	Show the length of names in EMP table. Eliminate duplicate length. Do not show the names.
+
+	ANSWER SELECT DISTINCT (LENGTH(ENAME)) FROM EMP;
+
+21.	List the names and hiredate of EMP in dept 20, display hiredate formatted as 12/03/1984.
+
+	ANSWER : select ename,date_format(hiredate,'%y/%m/%d') from emp where deptno=20;
+	
+22.	Find the day of week on which SMITH joined.
+
+    ANSWER :select ename,date_format(hiredate,'%W') Joined_Day from emp where ename='smith';
+	
+23.	Retrieve the ANALYST record with hiredate formatted as ‘The 3rd of Oct. 1984’.
+     
+	ANSWER : SELECT JOB,HIREDATE,DATE_FORMAT(HIREDATE,'THE %D %b. %Y') FROM EMP WHERE JOB='ANALYST';
+     
+24.	Calculate the total compensation expensive for each dept in 1 year. Assume that employees, who don't earn commission, receive non-monetary benefits than are worth Rs.1000 a month.
+     
+	 ANSWER : SELECT SAL,COMM,(CASE WHEN ISNULL(COMM) THEN (SAL*12)+12000 ELSE (SAL+COMM)*12 END) TOTAL_COMPENSATION FROM EMP; 
+
+25.	Display the Names of the Managers as follows-
+a.	If the employee code is 7788 the Manager is CLARK
+b.	If the employee code is 7698 the Manager is BLAKE
+c.	If the employee code is 7566 the Manager is JONES
+d.	For all other Employees the Manager is KING
+
+    ANSWER : SELECT ENAME,JOB,EMPNO, ( CASE WHEN EMPNO=7788 THEN 'CLARK'  WHEN EMPNO=7698 THEN 'BLAKE' WHEN EMPNO=7566 THEN 'JONES'  ELSE 'KING' END) MANAGER FROM EMP;
