@@ -84,7 +84,7 @@
 16.	Using the sales table, you need to report the following 
 a.	Appropriate column heading should be given for all the columns.
 
-      select repid 'Sales Representative id', custid 'Customer id', custname 'Customer Name' , prodid 'Product Id',prodname 'product name',amount 'Amount' from sales;
+      SELECT REPID 'SALES REPRESENTATIVE ID', CUSTID 'CUSTOMER ID', CUSTNAME 'CUSTOMER NAME' , PRODID 'PRODUCT ID',PRODNAME 'PRODUCT NAME',AMOUNT 'AMOUNT' FROM SALES;
 
 
 
