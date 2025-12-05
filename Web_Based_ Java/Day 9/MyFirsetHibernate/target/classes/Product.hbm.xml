@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name="com.demo.beans.Product"  table="Product11">
+<id name="pid">
+<generator class="increment"/>
+</id>
+<property name="pname" type="string" column="pname" not-null="true"/>
+<property name="qty" type="int" column="qty"/>
+<property name="price" type="double" column="price"/>
+</class>
+</hibernate-mapping>
