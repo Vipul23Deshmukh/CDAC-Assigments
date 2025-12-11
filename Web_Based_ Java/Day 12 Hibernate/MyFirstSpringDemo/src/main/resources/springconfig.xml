@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Example bean -->
+    <bean id="Hw" class="com.demo.beans.HelloWorld"/>
+
+
+<!-- setter injection -->
+<bean id="emp" class="com.demo.beans.Employee">
+<property name="eid" value="14"></property>
+<property name="ename" value="Sumit"></property>
+<property name="sal" value="45000"></property>
+
+</bean>
+
+<bean id="emp1" class="com.demo.beans.Employee">
+
+<constructor-arg index="0" value="15"> </constructor-arg>
+<constructor-arg index="1" value="Suygog"></constructor-arg>
+<constructor-arg index="2" value="500002"></constructor-arg>
+</bean>
+
+
+<bean id="add1" class="com.demo.beans.Address">
+<property name="street" value="mg road"></property>
+<property name="city" value="Pune"></property>
+<property name="pincode" value="411014"></property>
+
+</bean>
+
+<bean id="u1" class="com.demo.beans.MyUser">
+<property name="uid" value="11"></property>
+<property name="uname" value="nikita"></property>
+
+<property name="email" value="nn@gmail.com"></property>
+<property name="addr" ref="add1"></property>
+
+
+
+</bean>
+</beans>
+
+
