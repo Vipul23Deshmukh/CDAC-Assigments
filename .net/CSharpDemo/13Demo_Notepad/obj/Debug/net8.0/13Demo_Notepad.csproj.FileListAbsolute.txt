@@ -1,0 +1,14 @@
+D:\Dotnet\Vipul\13Demo_Notepad\obj\Debug\net8.0\13Demo_Notepad.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Vipul\13Demo_Notepad\obj\Debug\net8.0\13Demo_Notepad.AssemblyInfoInputs.cache
+D:\Dotnet\Vipul\13Demo_Notepad\obj\Debug\net8.0\13Demo_Notepad.AssemblyInfo.cs
+D:\Dotnet\Vipul\13Demo_Notepad\obj\Debug\net8.0\13Demo_Notepad.csproj.CoreCompileInputs.cache
+D:\Dotnet\Vipul\13Demo_Notepad\bin\Debug\net8.0\13Demo_Notepad.exe
+D:\Dotnet\Vipul\13Demo_Notepad\bin\Debug\net8.0\13Demo_Notepad.deps.json
+D:\Dotnet\Vipul\13Demo_Notepad\bin\Debug\net8.0\13Demo_Notepad.runtimeconfig.json
+D:\Dotnet\Vipul\13Demo_Notepad\bin\Debug\net8.0\13Demo_Notepad.dll
+D:\Dotnet\Vipul\13Demo_Notepad\bin\Debug\net8.0\13Demo_Notepad.pdb
+D:\Dotnet\Vipul\13Demo_Notepad\obj\Debug\net8.0\13Demo_Notepad.dll
+D:\Dotnet\Vipul\13Demo_Notepad\obj\Debug\net8.0\refint\13Demo_Notepad.dll
+D:\Dotnet\Vipul\13Demo_Notepad\obj\Debug\net8.0\13Demo_Notepad.pdb
+D:\Dotnet\Vipul\13Demo_Notepad\obj\Debug\net8.0\13Demo_Notepad.genruntimeconfig.cache
+D:\Dotnet\Vipul\13Demo_Notepad\obj\Debug\net8.0\ref\13Demo_Notepad.dll
