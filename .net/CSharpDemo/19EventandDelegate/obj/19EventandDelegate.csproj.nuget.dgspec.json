@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\Vipul\\Solution1\\19EventandDelegate\\19EventandDelegate.csproj": {}
+    "C:\\Users\\IET\\Desktop\\VipulPriyanka\\.net\\CSharpDemo\\19EventandDelegate\\19EventandDelegate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\Vipul\\Solution1\\19EventandDelegate\\19EventandDelegate.csproj": {
+    "C:\\Users\\IET\\Desktop\\VipulPriyanka\\.net\\CSharpDemo\\19EventandDelegate\\19EventandDelegate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\Vipul\\Solution1\\19EventandDelegate\\19EventandDelegate.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\VipulPriyanka\\.net\\CSharpDemo\\19EventandDelegate\\19EventandDelegate.csproj",
         "projectName": "19EventandDelegate",
-        "projectPath": "C:\\Users\\IET\\Desktop\\Vipul\\Solution1\\19EventandDelegate\\19EventandDelegate.csproj",
+        "projectPath": "C:\\Users\\IET\\Desktop\\VipulPriyanka\\.net\\CSharpDemo\\19EventandDelegate\\19EventandDelegate.csproj",
         "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\Vipul\\Solution1\\19EventandDelegate\\obj\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\VipulPriyanka\\.net\\CSharpDemo\\19EventandDelegate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

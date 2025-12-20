@@ -1,0 +1,5 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\20MulticastDelegte\obj\Debug\net8.0\20MulticastDelegte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\20MulticastDelegte\obj\Debug\net8.0\20MulticastDelegte.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\20MulticastDelegte\obj\Debug\net8.0\20MulticastDelegte.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\20MulticastDelegte\obj\Debug\net8.0\20MulticastDelegte.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\20MulticastDelegte\obj\Debug\net8.0\20MulticastDelegte.sourcelink.json

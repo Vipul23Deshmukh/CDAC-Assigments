@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\bin\Debug\net8.0\24GenericDelegate.exe
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\bin\Debug\net8.0\24GenericDelegate.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\bin\Debug\net8.0\24GenericDelegate.runtimeconfig.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\bin\Debug\net8.0\24GenericDelegate.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\bin\Debug\net8.0\24GenericDelegate.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\obj\Debug\net8.0\24GenericDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\obj\Debug\net8.0\24GenericDelegate.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\obj\Debug\net8.0\24GenericDelegate.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\obj\Debug\net8.0\24GenericDelegate.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\obj\Debug\net8.0\24GenericDelegate.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\obj\Debug\net8.0\24GenericDelegate.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\obj\Debug\net8.0\refint\24GenericDelegate.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\obj\Debug\net8.0\24GenericDelegate.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\obj\Debug\net8.0\24GenericDelegate.genruntimeconfig.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\24GenericDelegate\obj\Debug\net8.0\ref\24GenericDelegate.dll

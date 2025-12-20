@@ -9,3 +9,15 @@ C:\Users\IET\Desktop\Vipul\Solution1\15Demo_CMath\obj\Debug\net8.0\15Demo_CMath.
 C:\Users\IET\Desktop\Vipul\Solution1\15Demo_CMath\obj\Debug\net8.0\refint\15Demo_CMath.dll
 C:\Users\IET\Desktop\Vipul\Solution1\15Demo_CMath\obj\Debug\net8.0\15Demo_CMath.pdb
 C:\Users\IET\Desktop\Vipul\Solution1\15Demo_CMath\obj\Debug\net8.0\ref\15Demo_CMath.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\bin\Debug\net8.0\15Demo_CMath.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\bin\Debug\net8.0\15Demo_CMath.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\bin\Debug\net8.0\15Demo_CMath.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\obj\Debug\net8.0\15Demo_CMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\obj\Debug\net8.0\15Demo_CMath.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\obj\Debug\net8.0\15Demo_CMath.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\obj\Debug\net8.0\15Demo_CMath.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\obj\Debug\net8.0\15Demo_CMath.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\obj\Debug\net8.0\15Demo_CMath.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\obj\Debug\net8.0\refint\15Demo_CMath.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\obj\Debug\net8.0\15Demo_CMath.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\15Demo_CMath\obj\Debug\net8.0\ref\15Demo_CMath.dll

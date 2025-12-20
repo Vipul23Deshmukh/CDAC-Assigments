@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\bin\Debug\net8.0\26FileIODemo.exe
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\bin\Debug\net8.0\26FileIODemo.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\bin\Debug\net8.0\26FileIODemo.runtimeconfig.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\bin\Debug\net8.0\26FileIODemo.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\bin\Debug\net8.0\26FileIODemo.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\obj\Debug\net8.0\26FileIODemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\obj\Debug\net8.0\26FileIODemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\obj\Debug\net8.0\26FileIODemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\obj\Debug\net8.0\26FileIODemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\obj\Debug\net8.0\26FileIODemo.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\obj\Debug\net8.0\26FileIODemo.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\obj\Debug\net8.0\refint\26FileIODemo.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\obj\Debug\net8.0\26FileIODemo.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\obj\Debug\net8.0\26FileIODemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\26FileIODemo\obj\Debug\net8.0\ref\26FileIODemo.dll

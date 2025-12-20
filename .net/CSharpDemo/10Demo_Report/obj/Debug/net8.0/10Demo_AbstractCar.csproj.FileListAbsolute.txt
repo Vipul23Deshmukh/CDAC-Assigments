@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\obj\Debug\net8.0\10Demo_AbstractCar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\obj\Debug\net8.0\10Demo_AbstractCar.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\obj\Debug\net8.0\10Demo_AbstractCar.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\obj\Debug\net8.0\10Demo_AbstractCar.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\obj\Debug\net8.0\10Demo_AbstractCar.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\bin\Debug\net8.0\10Demo_AbstractCar.exe
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\bin\Debug\net8.0\10Demo_AbstractCar.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\bin\Debug\net8.0\10Demo_AbstractCar.runtimeconfig.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\bin\Debug\net8.0\10Demo_AbstractCar.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\bin\Debug\net8.0\10Demo_AbstractCar.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\obj\Debug\net8.0\10Demo_AbstractCar.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\obj\Debug\net8.0\refint\10Demo_AbstractCar.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\obj\Debug\net8.0\10Demo_AbstractCar.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\obj\Debug\net8.0\10Demo_AbstractCar.genruntimeconfig.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\10Demo_Report\obj\Debug\net8.0\ref\10Demo_AbstractCar.dll

@@ -1,0 +1,12 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\bin\Release\net8.0\Demo_myMath.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\bin\Release\net8.0\Demo_myMath.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\bin\Release\net8.0\Demo_myMath.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\obj\Release\net8.0\Demo_myMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\obj\Release\net8.0\Demo_myMath.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\obj\Release\net8.0\Demo_myMath.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\obj\Release\net8.0\Demo_myMath.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\obj\Release\net8.0\Demo_myMath.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\obj\Release\net8.0\Demo_myMath.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\obj\Release\net8.0\refint\Demo_myMath.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\obj\Release\net8.0\Demo_myMath.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\Demo_myMath\obj\Release\net8.0\ref\Demo_myMath.dll

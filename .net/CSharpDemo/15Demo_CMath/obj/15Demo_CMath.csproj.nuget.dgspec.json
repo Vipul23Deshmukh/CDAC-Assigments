@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\Vipul\\Solution1\\15Demo_CMath\\15Demo_CMath.csproj": {}
+    "C:\\Users\\IET\\Desktop\\VipulPriyanka\\.net\\CSharpDemo\\15Demo_CMath\\15Demo_CMath.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\Vipul\\Solution1\\15Demo_CMath\\15Demo_CMath.csproj": {
+    "C:\\Users\\IET\\Desktop\\VipulPriyanka\\.net\\CSharpDemo\\15Demo_CMath\\15Demo_CMath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\Vipul\\Solution1\\15Demo_CMath\\15Demo_CMath.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\VipulPriyanka\\.net\\CSharpDemo\\15Demo_CMath\\15Demo_CMath.csproj",
         "projectName": "15Demo_CMath",
-        "projectPath": "C:\\Users\\IET\\Desktop\\Vipul\\Solution1\\15Demo_CMath\\15Demo_CMath.csproj",
+        "projectPath": "C:\\Users\\IET\\Desktop\\VipulPriyanka\\.net\\CSharpDemo\\15Demo_CMath\\15Demo_CMath.csproj",
         "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\Vipul\\Solution1\\15Demo_CMath\\obj\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\VipulPriyanka\\.net\\CSharpDemo\\15Demo_CMath\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
