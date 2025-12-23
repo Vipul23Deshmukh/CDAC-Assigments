@@ -1,0 +1,14 @@
+D:\Dotnet\Vipul\12Demo_SealedClass\obj\Debug\net8.0\12Demo_SealedClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Vipul\12Demo_SealedClass\obj\Debug\net8.0\12Demo_SealedClass.AssemblyInfoInputs.cache
+D:\Dotnet\Vipul\12Demo_SealedClass\obj\Debug\net8.0\12Demo_SealedClass.AssemblyInfo.cs
+D:\Dotnet\Vipul\12Demo_SealedClass\obj\Debug\net8.0\12Demo_SealedClass.csproj.CoreCompileInputs.cache
+D:\Dotnet\Vipul\12Demo_SealedClass\bin\Debug\net8.0\12Demo_SealedClass.exe
+D:\Dotnet\Vipul\12Demo_SealedClass\bin\Debug\net8.0\12Demo_SealedClass.deps.json
+D:\Dotnet\Vipul\12Demo_SealedClass\bin\Debug\net8.0\12Demo_SealedClass.runtimeconfig.json
+D:\Dotnet\Vipul\12Demo_SealedClass\bin\Debug\net8.0\12Demo_SealedClass.dll
+D:\Dotnet\Vipul\12Demo_SealedClass\bin\Debug\net8.0\12Demo_SealedClass.pdb
+D:\Dotnet\Vipul\12Demo_SealedClass\obj\Debug\net8.0\12Demo_SealedClass.dll
+D:\Dotnet\Vipul\12Demo_SealedClass\obj\Debug\net8.0\refint\12Demo_SealedClass.dll
+D:\Dotnet\Vipul\12Demo_SealedClass\obj\Debug\net8.0\12Demo_SealedClass.pdb
+D:\Dotnet\Vipul\12Demo_SealedClass\obj\Debug\net8.0\12Demo_SealedClass.genruntimeconfig.cache
+D:\Dotnet\Vipul\12Demo_SealedClass\obj\Debug\net8.0\ref\12Demo_SealedClass.dll

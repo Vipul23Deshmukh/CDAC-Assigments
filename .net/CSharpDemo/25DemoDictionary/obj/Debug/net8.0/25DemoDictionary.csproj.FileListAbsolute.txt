@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\obj\Debug\net8.0\25DemoDictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\obj\Debug\net8.0\25DemoDictionary.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\obj\Debug\net8.0\25DemoDictionary.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\obj\Debug\net8.0\25DemoDictionary.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\obj\Debug\net8.0\25DemoDictionary.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\bin\Debug\net8.0\25DemoDictionary.exe
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\bin\Debug\net8.0\25DemoDictionary.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\bin\Debug\net8.0\25DemoDictionary.runtimeconfig.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\bin\Debug\net8.0\25DemoDictionary.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\bin\Debug\net8.0\25DemoDictionary.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\obj\Debug\net8.0\25DemoDictionary.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\obj\Debug\net8.0\refint\25DemoDictionary.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\obj\Debug\net8.0\25DemoDictionary.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\obj\Debug\net8.0\25DemoDictionary.genruntimeconfig.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\25DemoDictionary\obj\Debug\net8.0\ref\25DemoDictionary.dll

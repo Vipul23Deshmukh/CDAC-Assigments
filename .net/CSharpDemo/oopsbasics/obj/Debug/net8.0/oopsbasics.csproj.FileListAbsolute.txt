@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\bin\Debug\net8.0\oopsbasics.exe
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\bin\Debug\net8.0\oopsbasics.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\bin\Debug\net8.0\oopsbasics.runtimeconfig.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\bin\Debug\net8.0\oopsbasics.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\bin\Debug\net8.0\oopsbasics.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\obj\Debug\net8.0\oopsbasics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\obj\Debug\net8.0\oopsbasics.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\obj\Debug\net8.0\oopsbasics.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\obj\Debug\net8.0\oopsbasics.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\obj\Debug\net8.0\oopsbasics.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\obj\Debug\net8.0\oopsbasics.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\obj\Debug\net8.0\refint\oopsbasics.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\obj\Debug\net8.0\oopsbasics.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\obj\Debug\net8.0\oopsbasics.genruntimeconfig.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\oopsbasics\obj\Debug\net8.0\ref\oopsbasics.dll

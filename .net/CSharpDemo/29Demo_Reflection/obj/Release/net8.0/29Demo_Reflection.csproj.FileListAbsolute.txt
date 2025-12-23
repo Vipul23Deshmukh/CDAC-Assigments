@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\bin\Release\net8.0\29Demo_Reflection.exe
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\bin\Release\net8.0\29Demo_Reflection.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\bin\Release\net8.0\29Demo_Reflection.runtimeconfig.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\bin\Release\net8.0\29Demo_Reflection.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\bin\Release\net8.0\29Demo_Reflection.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\obj\Release\net8.0\29Demo_Reflection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\obj\Release\net8.0\29Demo_Reflection.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\obj\Release\net8.0\29Demo_Reflection.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\obj\Release\net8.0\29Demo_Reflection.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\obj\Release\net8.0\29Demo_Reflection.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\obj\Release\net8.0\29Demo_Reflection.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\obj\Release\net8.0\refint\29Demo_Reflection.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\obj\Release\net8.0\29Demo_Reflection.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\obj\Release\net8.0\29Demo_Reflection.genruntimeconfig.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\29Demo_Reflection\obj\Release\net8.0\ref\29Demo_Reflection.dll

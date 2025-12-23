@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\bin\Debug\net8.0\OOPs_interface.exe
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\bin\Debug\net8.0\OOPs_interface.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\bin\Debug\net8.0\OOPs_interface.runtimeconfig.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\bin\Debug\net8.0\OOPs_interface.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\bin\Debug\net8.0\OOPs_interface.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\obj\Debug\net8.0\OOPs_interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\obj\Debug\net8.0\OOPs_interface.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\obj\Debug\net8.0\OOPs_interface.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\obj\Debug\net8.0\OOPs_interface.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\obj\Debug\net8.0\OOPs_interface.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\obj\Debug\net8.0\OOPs_interface.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\obj\Debug\net8.0\refint\OOPs_interface.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\obj\Debug\net8.0\OOPs_interface.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\obj\Debug\net8.0\OOPs_interface.genruntimeconfig.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\OOPs_interface\obj\Debug\net8.0\ref\OOPs_interface.dll
