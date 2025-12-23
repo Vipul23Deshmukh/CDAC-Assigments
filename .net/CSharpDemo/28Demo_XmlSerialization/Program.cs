@@ -23,22 +23,22 @@ namespace _28Demo_XmlSerialization
 
             #region xmlserialization for writing object to file
 
-            //FileStream fs = null;
-            //if (File.Exists(filePath))
-            //{
-            //    fs = new FileStream(filePath, FileMode.Open, FileAccess.Write);
-            //}
-            //else
-            //{
-            //    fs = new FileStream(filePath, FileMode.Create, FileAccess.Write);
-            //}
+            FileStream fs = null;
+            if (File.Exists(filePath))
+            {
+                fs = new FileStream(filePath, FileMode.Open, FileAccess.Write);
+            }
+            else
+            {
+                fs = new FileStream(filePath, FileMode.Create, FileAccess.Write);
+            }
 
-            // XmlSerializer xr = new XmlSerializer(typeof(Employee));
-            
-            // xr.Serialize(fs, e1);
-           
-            //fs.Close();
-            //Console.WriteLine(" done");
+            XmlSerializer xr = new XmlSerializer(typeof(Employee));
+
+            xr.Serialize(fs, e1);
+
+            fs.Close();
+            Console.WriteLine(" done");
 
             #endregion
             #region xmldeserialization for reading object from file

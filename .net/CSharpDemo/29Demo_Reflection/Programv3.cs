@@ -52,7 +52,7 @@ namespace _29Demo_Reflection
                     for (int p = 0; p < parameters.Length; p++)
                     {
                         ParameterInfo para = parameters[p];
-                        Console.WriteLine($"enter value for {para.Name} of type={para.ParameterType.ToString}");
+                        Console.WriteLine($"enter value for {para.Name} of type={para.ParameterType.ToString()}");
                         inputvalues[p] = Convert.ChangeType(Console.ReadLine(), para.ParameterType);
 
                     }
@@ -61,14 +61,15 @@ namespace _29Demo_Reflection
 
                     object? result = type.InvokeMember(
                         method.Name,
-                        BindingFlags.Public,
-                        BindingFlags.Instance,
+                        BindingFlags.Public |
+                        BindingFlags.Instance |
                         BindingFlags.InvokeMethod,
                         null,
                         dynamicobject,
                         inputvalues
-                   );
+                        );
                     Console.WriteLine($"{method.Name} = {result}");
+                   
                 }
 
 
