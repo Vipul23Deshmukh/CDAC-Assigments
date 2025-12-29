@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\bin\Debug\net8.0\40DemoLinq.exe
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\bin\Debug\net8.0\40DemoLinq.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\bin\Debug\net8.0\40DemoLinq.runtimeconfig.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\bin\Debug\net8.0\40DemoLinq.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\bin\Debug\net8.0\40DemoLinq.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\obj\Debug\net8.0\40DemoLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\obj\Debug\net8.0\40DemoLinq.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\obj\Debug\net8.0\40DemoLinq.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\obj\Debug\net8.0\40DemoLinq.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\obj\Debug\net8.0\40DemoLinq.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\obj\Debug\net8.0\40DemoLinq.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\obj\Debug\net8.0\refint\40DemoLinq.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\obj\Debug\net8.0\40DemoLinq.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\obj\Debug\net8.0\40DemoLinq.genruntimeconfig.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\40DemoLinq\obj\Debug\net8.0\ref\40DemoLinq.dll

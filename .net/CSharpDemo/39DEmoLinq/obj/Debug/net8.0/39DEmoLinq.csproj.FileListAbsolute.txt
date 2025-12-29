@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\bin\Debug\net8.0\39DEmoLinq.exe
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\bin\Debug\net8.0\39DEmoLinq.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\bin\Debug\net8.0\39DEmoLinq.runtimeconfig.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\bin\Debug\net8.0\39DEmoLinq.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\bin\Debug\net8.0\39DEmoLinq.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\obj\Debug\net8.0\39DEmoLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\obj\Debug\net8.0\39DEmoLinq.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\obj\Debug\net8.0\39DEmoLinq.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\obj\Debug\net8.0\39DEmoLinq.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\obj\Debug\net8.0\39DEmoLinq.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\obj\Debug\net8.0\39DEmoLinq.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\obj\Debug\net8.0\refint\39DEmoLinq.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\obj\Debug\net8.0\39DEmoLinq.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\obj\Debug\net8.0\39DEmoLinq.genruntimeconfig.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\39DEmoLinq\obj\Debug\net8.0\ref\39DEmoLinq.dll
