@@ -1,0 +1,22 @@
+﻿<h3>Demo Index</h3>
+<hr />
+<p style="color:blueviolet">@ViewBag.Message</p>
+<ul style="background-color:darkmagenta">
+    @{
+        Emp emp = ViewBag.empInfo;
+        <li> @emp.Id</li>
+        <li>@emp.Name</li>
+        <li>@emp.Address</li>
+    }
+</ul>
+
+<p>@ViewData["number"]</p>
+
+<ul style="background-color:aqua">
+    @{
+        Emp emp1 = ViewData["emp1"] as Emp;
+        <li> @emp1.Id</li>
+        <li>@emp1.Name</li>
+        <li>@emp1.Address</li>
+    }
+</ul>

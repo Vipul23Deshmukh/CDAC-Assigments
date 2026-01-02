@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "03Basic_Mvc/1.0.0": {
+        "runtime": {
+          "03Basic_Mvc.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "03Basic_Mvc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

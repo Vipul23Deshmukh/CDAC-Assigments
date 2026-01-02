@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\bin\Debug\net8.0\47Demo_Exception.exe
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\bin\Debug\net8.0\47Demo_Exception.deps.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\bin\Debug\net8.0\47Demo_Exception.runtimeconfig.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\bin\Debug\net8.0\47Demo_Exception.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\bin\Debug\net8.0\47Demo_Exception.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\obj\Debug\net8.0\47Demo_Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\obj\Debug\net8.0\47Demo_Exception.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\obj\Debug\net8.0\47Demo_Exception.AssemblyInfo.cs
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\obj\Debug\net8.0\47Demo_Exception.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\obj\Debug\net8.0\47Demo_Exception.sourcelink.json
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\obj\Debug\net8.0\47Demo_Exception.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\obj\Debug\net8.0\refint\47Demo_Exception.dll
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\obj\Debug\net8.0\47Demo_Exception.pdb
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\obj\Debug\net8.0\47Demo_Exception.genruntimeconfig.cache
+C:\Users\IET\Desktop\VipulPriyanka\.net\CSharpDemo\47Demo_Exception\obj\Debug\net8.0\ref\47Demo_Exception.dll
